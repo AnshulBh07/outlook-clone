@@ -1,0 +1,22 @@
+:root {
+  --accent: #e54065;
+  --background: #f4f5f9;
+  --border: #cfd2dc;
+  --text: #636363;
+  --filterBtn: #e1e4ea;
+  --readBg: #f2f2f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,61 @@
+.container__email-card {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  font-family: "poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  cursor: pointer;
+  border: 1px solid var(--border);
+}
+
+.container__email-card:focus {
+  border: 1px solid var(--accent);
+}
+
+.avatar {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #fff;
+  flex-shrink: 0;
+  background-color: var(--accent);
+}
+
+.email-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  font-size: 0.9rem;
+  align-items: flex-start;
+}
+
+.email-info p {
+  color: var(--text);
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.email-info p span {
+  font-weight: 600;
+}
+
+.date-favtags {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.favs {
+  color: var(--accent) !important;
+  font-weight: 600;
+}

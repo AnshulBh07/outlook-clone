@@ -1,0 +1,73 @@
+.container__body {
+  padding: 2rem;
+  min-height: fit-content;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+
+.avatar-body {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: var(--accent);
+  flex-shrink: 0;
+}
+
+.info-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: flex-start;
+  font-family: "poppins", sans-serif;
+  color: var(--text);
+}
+
+.sub-favbtn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.sub-favbtn button {
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  border: none;
+  background-color: var(--accent);
+  color: #fff;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sub-favbtn h2 {
+  color: var(--text);
+  font-size: 2rem;
+}
+
+.body-date {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.body-text {
+  font-size: 0.9rem;
+}
+
+.body-text div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

@@ -1,0 +1,45 @@
+.section__filter-band {
+  padding: 1rem 6rem;
+  width: 100%;
+  font-family: "poppins", sans-serif;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.filter-title {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.container__filter-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.btn-filter {
+  padding: 0.2rem 0.7rem;
+  text-transform: capitalize;
+  font-family: "poppins", sans-serif;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  color: var(--text);
+  border: 1px solid var(--background);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-filter:focus {
+  border: 1px solid var(--border);
+  background-color: var(--filterBtn);
+}
